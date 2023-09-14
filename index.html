@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unsplash API in Javascript</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <div class="fetchImagesWrapper">
+        <button class="getImagesButton" id="changeButton">
+          <input type="text" id="inputField" placeholder="Enter a new string">
+          Get An Image
+        </button>
+      
+        <p>Now Displaying: <span id="output"></span></p>
+      </div>
+      <div class="imageDisplayWrapper" style="margin-top: 25px;">
+        <img
+          class="imageToDisplay"
+          style="width: 550px; height: 350px; border: 1px solid black;"
+        />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
